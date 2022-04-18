@@ -9,7 +9,7 @@ This project contains:
    3. Extras (Entity)
    4. Salsa (ENUM)
    5. Tortilla (ENUM)
-4. Order Repository
+4. Order Repository (saves data to h2 in-memory database)
 5. JWT Based API Security
 6. Junit Test cases
 6. Postman Collection
