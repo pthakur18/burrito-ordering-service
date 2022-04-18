@@ -14,9 +14,9 @@ This project contains:
 6. Junit Test cases
 6. Postman Collection
    1. Execute Get /authentication first to get token
-   2. Execute POST /orders to save orders
-   3. Execute GET /orders/{id} to get order by order id
-   4. Execute GET /orders to get all orders
+   2. Execute POST /orders to save orders - add Authorization header as Bearer <jwt token> from /authentication API call
+   3. Execute GET /orders/{id} to get order by order id - add Authorization header as Bearer <jwt token> from /authentication API call
+   4. Execute GET /orders to get all orders - add Authorization header as Bearer <jwt token> from /authentication API call
    
 
 #Note: Order_Details_Vegetable and Order_Details_extras could have been modeled better as Vegetable and Extras as Lookup tables. Order_Details_Vegetable and Order_Details_extras as one-to-many relation with order 
